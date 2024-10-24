@@ -1,5 +1,3 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
-
 -- Customize Treesitter
 
 ---@type LazySpec
@@ -9,6 +7,16 @@ return {
     ensure_installed = {
       "lua",
       "vim",
+      "elixir",
+      "rust",
+      "gleam",
+      "python",
+      "typescript",
+      "purescript",
+      "haskell",
+      "haskell_persistent",
+      "ocaml",
+      "ocaml_interface",
       -- add more arguments for adding more treesitter parsers
     },
   },

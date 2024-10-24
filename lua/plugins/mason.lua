@@ -11,6 +11,10 @@ return {
     opts = {
       ensure_installed = {
         "lua_ls",
+        "elixir_ls",
+        "rust_analyzer",
+        "deno",
+        "basedpyright",
         -- add more arguments for adding more language servers
       },
     },
